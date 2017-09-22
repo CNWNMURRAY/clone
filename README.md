@@ -7,7 +7,7 @@ Purpose
 Platform
 
 Librarys: 
--https://d3js.org/
+- https://d3js.org/
 
 Plugins: 
 - https://www.npmjs.com/package/cordova-plugin-dialogs (so that user can get notifications)
