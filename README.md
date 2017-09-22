@@ -4,7 +4,9 @@ Description
 
 Purpose
 
-Platform
+Platform: 
+- Android
+- Iphone (untested)
 
 Librarys: 
 - https://d3js.org/ (graphs)
