@@ -10,6 +10,8 @@ Librarys:
 - https://d3js.org/ (graphs)
 - https://socket.io/ (communitcation) 
 - http://www.chartjs.org/ (charts)
+- https://slideout.js.org/ (slide navigation of app)
+- https://github.com/thebird/swipe/ (always swiping on the app)
 
 Plugins: 
 - https://www.npmjs.com/package/cordova-plugin-dialogs (so that user can get notifications)
