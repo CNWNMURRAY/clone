@@ -6,6 +6,9 @@ Purpose
 
 Platform
 
+Librarys: 
+-https://d3js.org/
+
 Plugins: 
 - https://www.npmjs.com/package/cordova-plugin-dialogs (so that user can get notifications)
 - https://www.npmjs.com/package/cordova-plugin-camera (so that the user can take pictures and send those as a poll)
