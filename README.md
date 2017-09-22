@@ -1,8 +1,8 @@
 #**COMP422SPA is a Social Polling App Project**
 
-## Description 
+Description 
 
-##Purpose 
+Purpose 
 
-## Works Cited 
+Works Cited 
 
