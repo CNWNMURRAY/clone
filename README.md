@@ -12,14 +12,14 @@ Platform:
     - change line 202 in emulator.js to: var num = target.match(/\d+/)[0]; the file path is your projects name and then platforms\android\cordova\lib\emulator.js 
 - Iphone (untested)
 
-Librarys: 
+Librarys (possible):
 - https://d3js.org/ (graphs)
 - https://socket.io/ (communitcation) 
 - http://www.chartjs.org/ (charts)
 - https://slideout.js.org/ (slide navigation of app)
 - https://github.com/thebird/swipe/ (always swiping on the app)
 
-Plugins: 
+Plugins (possible): 
 - https://www.npmjs.com/package/cordova-plugin-dialogs (so that user can get notifications)
 - https://www.npmjs.com/package/cordova-plugin-camera (so that the user can take pictures and send those as a poll)
 - https://www.npmjs.com/package/cordova-plugin-facebookconnect-orlando (so that user can post results to facebook)
