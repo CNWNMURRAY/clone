@@ -6,8 +6,10 @@ Purpose
 
 Platform: 
 - apache cordova
--- https://cordova.apache.org/docs/en/latest/guide/cli/index.html
+  -https://cordova.apache.org/docs/en/latest/guide/cli/index.html
 - Android
+  -build errors: 
+    - change line 202 in emulator.js to: var num = target.match(/\d+/)[0]; the file path is your projects name and then platforms\android\cordova\lib\emulator.js 
 - Iphone (untested)
 
 Librarys: 
