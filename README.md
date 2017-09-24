@@ -5,7 +5,7 @@ Description
 Purpose
 
 Platform: 
-- apache cordova
+- apache cordova install documentation 
   -https://cordova.apache.org/docs/en/latest/guide/cli/index.html
 - Android
   -build errors: 
