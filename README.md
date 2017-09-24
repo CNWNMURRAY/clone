@@ -5,6 +5,7 @@ Description
 Purpose
 
 Platform: 
+-apache cordova
 - Android
 - Iphone (untested)
 
