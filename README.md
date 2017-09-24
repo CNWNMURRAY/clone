@@ -7,9 +7,18 @@ Purpose
 Platform: 
 - apache cordova install documentation:
   - https://cordova.apache.org/docs/en/latest/guide/cli/index.html
+  - troubleshooting: 
+    - you may have an error with your paths. 
+    - you can fix this by going to windows -> systems -> enviornment variables -> and adding: 
+      - ANDROID _HOME and the value should be your version of C:\Users\Chlece\AppData\Local\Android\Sdk
+      - JAVA_HOME and the value should be your version of C:\Program Files\Java\jre1.8.0_144\bin
+      - edit the Path variable and make sure it has C:\Users\Chlece\AppData\Roaming\npm and C:\Program Files\Java\jre1.8.0_144\bin on the end. 
 - Android
   - build errors: 
     - change line 202 in emulator.js to: var num = target.match(/\d+/)[0]; the file path is your projects name and then platforms\android\cordova\lib\emulator.js 
+    - SDK updates: 
+      - go into android studio
+      - go to tools -> updates -> sdk manager and update the plateforms
 - Iphone (untested)
 
 Librarys (possible):
