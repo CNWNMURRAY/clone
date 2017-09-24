@@ -5,7 +5,8 @@ Description
 Purpose
 
 Platform: 
--apache cordova
+- apache cordova
+-- https://cordova.apache.org/docs/en/latest/guide/cli/index.html
 - Android
 - Iphone (untested)
 
