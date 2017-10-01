@@ -1,3 +1,8 @@
+body{
+background-color:#fbb13c;
+opacity: 0.6;
+}
+
 .dropbtn {
     background-color:#d81159;
     color: white;
