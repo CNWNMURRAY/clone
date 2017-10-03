@@ -39,4 +39,7 @@ Works Cited
 Notes:
 - https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
   - IndexedDB is a low-level API for client-side storage of significant amounts of structured data, including files/blobs. This API uses  indexes to enable high-performance searches of this data. While Web Storage is useful for storing smaller amounts of data, it is less useful for storing larger amounts of structured data.
+- Used the html symbols here to get the sigma. When used in index.html the lower case s does not register so I get &Sigma not &sigma.
+  - http://www.dionysia.org/html/entities/symbols.html
+ 
 
