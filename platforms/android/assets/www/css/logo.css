@@ -54,9 +54,16 @@ h2 {
 
 p {
     
-    font-size: 80px;
-	margin-left:130px;
-    margin-top:-175px;
+    font-size: 250px;
+	margin-left:95px;
+    margin-top:-250px;
+    color: #d81159; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#381A1D,#2B3538,#372A2A,#302932,#38292B);
+    /*background: -webkit-linear-gradient(#B5DFCA,#8f2d56,#218380,#fbb13c,#d81159);*/
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  
+   
 }
 
 
