@@ -21,6 +21,29 @@ Platform:
       - go to tools -> updates -> sdk manager and update the plateforms
 - Iphone (untested)
 
+- MongoDB/Nodjs
+	- download mongodb---set up
+	- download node.js
+	- create a new project anywhere you like 
+	- open in bash 
+	- create package.JSON folder by:
+		- npm init
+		- copy dependences in to package JSON then:
+			- npm install
+			- node app starts the server
+ 
+	- How to get mongodb running with nodejs
+		- CMD ADMIN
+		- cd/
+		- cd MongoDB
+		- cd bin
+		- mongo (to get it started)
+			- show dbs
+			- use loginapp (name of db you want to use)
+			- show collections
+			- db.createCollection ('users');
+			- db.<collection>.find()
+
 Librarys (possible):
 - https://d3js.org/ (graphs)
 - https://socket.io/ (communitcation) 
