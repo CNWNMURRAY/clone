@@ -21,16 +21,9 @@ Platform:
       - go to tools -> updates -> sdk manager and update the plateforms
 - Iphone (untested)
 
-- MongoDB/Nodjs
-	- download mongodb---set up
-	- download node.js
-	- create a new project anywhere you like 
-	- open in bash 
-	- create package.JSON folder by:
-		- npm init
-		- copy dependences in to package JSON then:
-			- npm install
-			- node app starts the server
+- Open Gitbash
+	- cd c/Users\Chlece\Desktop\Coding\COMP422\COMP422SPA\Database
+	- npm init
  
 	- How to get mongodb running with nodejs
 		- CMD ADMIN
