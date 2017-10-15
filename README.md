@@ -4,6 +4,24 @@ Description
 
 Purpose
 
+Node js. for backend server
+- Footprint
+- Mature
+- Support
+- Modular
+- Easy
+- Leverage
+- Performance
+- scaling 
+
+Cordova for front end:
+- support
+- features
+- easy installation
+- write once
+- skill set
+- freedom of choice (cross-plateform)
+
 Platform: 
 - apache cordova install documentation:
   - https://cordova.apache.org/docs/en/latest/guide/cli/index.html
@@ -50,9 +68,16 @@ Plugins (possible):
 - https://www.npmjs.com/package/cordova-plugin-facebookconnect-orlando (so that user can post results to facebook)
 - https://www.npmjs.com/package/cordova-plugin-googlemaps-master (so that poll demographichs can include location) 
 
+Dependentcies:
+- use --save when installing dependeinces like soketio
+
 Works Cited 
 
 Notes:
 - https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
   - IndexedDB is a low-level API for client-side storage of significant amounts of structured data, including files/blobs. This API uses  indexes to enable high-performance searches of this data. While Web Storage is useful for storing smaller amounts of data, it is less useful for storing larger amounts of structured data.
-
+- https://stormpath.com/blog/tutorial-build-rest-api-mobile-apps-using-node-js
+  -REST API's 
+- CorkDev: Buidling Scalable Mobile Applications with Cordova and Node.js
+ - https://www.youtube.com/watch?v=9ZsFT_tZz4g
+ 

@@ -1,0 +1,27 @@
+Options for frameworks and authentication
+- Stormpath is an authentication service that securely stores your user accounts and private user information. Plus, 
+it’s free to use for small projects! Stormpath shutdown now it's Okta
+- dev-115299.oktapreview.com (to access Okta account)
+- user name cneal@@luc.edu
+- password Colewalker31
+- blue picutre
+- Paris and Chicago 
+
+Tools:
+Node.js
+Postman 
+
+Common API
+/register
+/oauth/token (for logging in)
+
+
+
+Endpoints (should be more specific that what is here)
+Return information for the authenticated user in the form of a JSON object
+-GET/Information
+Takes a JSON object with the information and saves it for the authenticated user
+-POST/Information
+
+JSON object takes the form of: 
+{"information": "The information the user saved"}
