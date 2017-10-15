@@ -2,7 +2,6 @@ p.logo {
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px);
     position: absolute;
     font-size: 300px;
-	margin-left:0px;
     margin-top:-100px;
     text-align:center;
     color: #d81159; /* For browsers that do not support gradients */
@@ -52,7 +51,7 @@ input[type=Email]{
     padding:0px 0px 0px 0px;
 }
 
-input[type=text]{
+input[type=password]{
  margin-bottom: 5px;
  background-color:white;
     font-size: 14px;

@@ -39,6 +39,12 @@ Platform:
       - go to tools -> updates -> sdk manager and update the plateforms
 - Iphone (untested)
 
+- Apache ant 
+  - C:\apache-ant-1.10.1-bin\bin;C:\apache-ant-1.10.1-bin;
+
+- Phonegap
+  - C:\Users\Chlece\AppData\Roaming\npm\phonegap
+
 - Open Gitbash
 	- cd c/Users\Chlece\Desktop\Coding\COMP422\COMP422SPA\Database
 	- npm init
