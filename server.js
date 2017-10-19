@@ -16,12 +16,22 @@ var server = app.listen(3000, function(){
 
 })*/
 
-var express = require("express")
+var express = require("express");
+var bodyParser = require("body-parser");
+var mongo = require("mongodb");
+var mongoose = require("mongoose");
 var usersController = require("./Controller/users");
 var profilesController = require("./Controller/profiles");
 var surveysController = require("./Controller/surveys");
 
+mongoose.connect('mongodb://localhost:27017/COMP422SPA');
+
 var app = express();
+
+//allows us to diges the body of the request
+app.use(bodyParser.urlencoded ({
+	extended: true
+}));
 
 var router = express.Router();
 
@@ -29,10 +39,19 @@ var router = express.Router();
 // it tells the express app if someone comes to api use the router
 
 app.use("/api", router);
-
+//users
 router.route("/users").get(usersController.getusers);
+router.route("/users").get(usersController.getuser);
+router.route("/users").post(usersController.createusers);
+//profiles
 router.route("/profiles").get(profilesController.getprofiles);
+router.route("/profiles").get(profilesController.getprofile);
+router.route("/profiles").post(profilesController.createprofiles);
+router.route("/profiles").post(profilesController.updateprofiles);
+//surveys
 router.route("/surveys").get(surveysController.getsurveys);
+router.route("/surveys").get(surveysController.getsurvey);
+router.route("/surveys").post(surveysController.createsurveys);
 
 app.listen(3000);
 

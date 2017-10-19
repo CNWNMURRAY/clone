@@ -2,7 +2,11 @@
 
  //survey schema
  const SurveySchema = mongoose.Schema({
- 	surveyname: {
+	surveyname: {
+ 		type: String,
+ 		require: true
+ 	},
+	surveyname: {
  		type: String,
  		require: true
  	},
