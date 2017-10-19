@@ -1,0 +1,81 @@
+
+User registration 
+- First and Last name 
+- email 
+- username 
+- password 
+
+Login 
+- email or user name 
+- password 
+
+Profile: 
+-Age
+- Biological sex at birth
+-Gender
+- ethnicity 
+-nationality 
+- country born in 
+-country most lived in 
+-country currently living in
+-for united states residents only: 
+	-state currently living in  
+-city corrently living in 
+-education: 
+	-1st grade
+	-2nd grade
+	-3rd grade
+	-4th grade
+	-5th grade
+	-6th grade
+	-7th grade
+	-8th grade
+	-9th grade
+	-10th grade
+	-11th grade
+	-12th grade
+	-2 year degree started
+	-2 year degree completed
+	-4 year degree started
+	-4 year degree completed
+	-Graduate School started
+	-Graduate school completed
+	-Professional Degree started (J.D, M.D)
+	-Professional Degree completed
+	-Doctoral Degree started (Ph.D only)
+	-Doctoral Degree completed
+	-School of hardknocks
+
+- Religious identification : 
+ -Prostestant
+ -Catholic
+ -Muslim 
+ -Morman 
+ -Jewdiasm
+ -Buddist
+ -Hindu
+ -Other 
+
+ -Religious practicies: 
+ 	- weekly or daily attendance of religous services
+ 	-monthly attendance of religious services
+ 	-yearly attendance of religious servives 
+ 	- occasional attendance of religous services
+-Political stance: 
+ -liberal 
+ - moderate
+ - republican 
+ - democratice
+ -libertarian 
+ - I don't identify with any particular party or leaning. 
+
+ Survey questions: 
+
+ Survey questions: 
+ Survey questions options:
+ Who would you like to answer your survey: 
+ Local survey(Friends only): 
+  -select friends 
+ Global survey (anyone)
+  -select demographics
+

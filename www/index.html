@@ -21,16 +21,16 @@
 	</head>
 		<body>
 		   <div class="app">
-			<form class="login" id="Login_form" method="get" action="checkSSPwd.php"> 
+			<form class="login" id="Login_form" method="POST" action='/user/login'> 
 				<div><label for="user">Email:
-				<input type="Email" name="email" id="email"></label></div>
+				<input type="email" name="email" id="email"></label></div>
 				<div><label for="password">Password:
 				<input type="password" name="password" id="password"></label></div>
 				<input type="checkbox" name="remember" value="Remember" checked><span> Remember me</span>
 				<input type="checkbox" name="ToU" value="ToU" checked>I have read the<a href="Terms of Use.txt">Terms of Use and the</a> <a href="PrivacyPolicy.txt"> Privacy Policy</a><br>
 				<div><input type="submit" id="login" value="Login"></div>
 			</form>
-				<p class="link1"><a href="userdash.html" >Create an Account</a></p>
+				<p class="link1"><a href="register.html" >Create an Account</a></p>
 				</div>
 		
         <script type="text/javascript" src="cordova.js"></script>

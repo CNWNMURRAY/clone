@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="www/css/index.css">
+    	<title>Social Polling</title>
+    	<p class="logo">σ</p>
+    	<h1 class="appname">Social Polling</h1>
+	</head>
+		<body>
+		   <div class="app">
+			<form class="login" id="Registration_form" method="POST" action='routes/users/register'> 
+				<div><label for ="name">Name: 
+                <input type"Name" name="name" id="name"></label></div>
+                <div><label for="email">Email:
+				<input type="Email" name="email" id="email"></label></div>
+                <div><label for="username">Username:
+                <input type="Username" name="username" id="username"></label></div>
+				<div><label for="password">Password:
+				<input type="password" name="password" id="password"></label></div>
+                <div><label for="password">Confirm Password:
+                <input type="password" name="password2" id="password"></label></div>
+				<input type="checkbox" name="remember" value="Remember" checked><span> Remember me</span>
+				<input type="checkbox" name="ToU" value="ToU" checked>I have read the<a href="Terms of Use.txt">Terms of Use and the</a> <a href="PrivacyPolicy.txt"> Privacy Policy</a><br>
+				<div><input type="submit" id="login" value="Login"></div>
+			</form>
+				<p class="link1"><a href="COMP422SPA/index.html" >Have an account</a></p>
+				</div>
+		
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/reg-login-functions.js"></script>
+		<script type="text/javascript" src="js/Newuserregs.js"></script>
+		<script type="text/javascript" src="js/processNewSSuser.php"></script>
+    </body>
+</html>
