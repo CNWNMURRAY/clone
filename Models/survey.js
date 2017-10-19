@@ -14,6 +14,14 @@
  		type: Number,
  		require: true
  	},
+	surveyopen: {
+ 		type: Date,
+ 		require: true
+ 	},
+  	surveyclose: {
+ 		type: Date,
+ 		require: true
+ 	},
  	country: {
  		type: String,
  		require: true
