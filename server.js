@@ -42,16 +42,16 @@ app.use("/api", router);
 //users
 router.route("/users").get(usersController.getusers);
 router.route("/users").get(usersController.getuser);
-router.route("/users").post(usersController.createusers);
+router.route("/users").post(usersController.adduser);
 //profiles
 router.route("/profiles").get(profilesController.getprofiles);
 router.route("/profiles").get(profilesController.getprofile);
-router.route("/profiles").post(profilesController.createprofiles);
-router.route("/profiles").post(profilesController.updateprofiles);
+router.route("/profiles").post(profilesController.addprofile);
+router.route("/profiles").post(profilesController.updateprofile);
 //surveys
 router.route("/surveys").get(surveysController.getsurveys);
 router.route("/surveys").get(surveysController.getsurvey);
-router.route("/surveys").post(surveysController.createsurveys);
+router.route("/surveys").post(surveysController.addsurvey);
 
 app.listen(3000);
 

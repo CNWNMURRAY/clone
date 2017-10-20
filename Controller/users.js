@@ -7,13 +7,13 @@ exports.getusers = function(req, res){
 exports.getuser = function(req, res){
 	res.send("getting a account");
 }
-exports.createusers = function(req, res){
+exports.adduser = function(req, res){
 	
 	var user = new User();
 	
-	user.name= req.body.name;
-	user.email= req.body.email;
-	user.password = req.body.passoword;
+	name= req.body.name;
+	email= req.body.email;
+	password = req.body.password;
 	
 	user.save(function(err){
 		if(err){

@@ -1,11 +1,7 @@
- const mongoose = require('mongoose');
+var mongoose = require('mongoose');
 
  //survey schema
- const SurveySchema = mongoose.Schema({
-	surveyname: {
- 		type: String,
- 		require: true
- 	},
+ var Survey = mongoose.Schema({
 	surveyname: {
  		type: String,
  		require: true
@@ -98,6 +94,18 @@
  		type: String,
  		require: true
  	},
+	foriegn_travel: {
+ 		type: String,
+ 		require: true
+ 	},
+  	income: {
+ 		type: Number,
+ 		require: true
+ 	},
+	work: {
+ 		type: String,
+ 		require: true
+ 	},
   	children: {
  		type: String,
  		require: true
@@ -108,4 +116,4 @@
  	},
  });
 
- const Survey = module.exports = mongoose.model('Survey', SurveySchema);
+ var Survey = module.exports = mongoose.model('Survey', SurveySchema);

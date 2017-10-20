@@ -1,7 +1,7 @@
- const mongoose = require('mongoose');
+var mongoose = require('mongoose');
 
  //Profile schema
- const ProfileSchema = mongoose.Schema({
+ var Profile = mongoose.Schema({
  	name: {
  		type: String,
  		require: true
@@ -66,7 +66,7 @@
  		type: String,
  		require: true
  	},
-  	currentycountry: {
+  	currentcountry: {
  		type: String,
  		require: true
  	},
@@ -76,6 +76,22 @@
  	},
 	num_sibs: {
  		type: Number,
+ 		require: true
+ 	},
+  	parentsmstatus: {
+ 		type: String,
+ 		require: true
+ 	},
+	foriegn_travel: {
+ 		type: String,
+ 		require: true
+ 	},
+  	income: {
+ 		type: Number,
+ 		require: true
+ 	},
+	work: {
+ 		type: String,
  		require: true
  	},
   	parentsmstatus: {
@@ -92,4 +108,4 @@
  	},
  });
 
- const Profile = module.exports = mongoose.model('Profile', ProfileSchema);
+var Profile = module.exports = mongoose.model('Profile', ProfileSchema);
