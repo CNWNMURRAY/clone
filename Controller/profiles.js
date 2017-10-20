@@ -14,10 +14,6 @@ exports.getprofile = function(req, res){
 	res.send("get all profiles");
 }
 
-exports.createprofile = function(req, res){
-	res.send("creating a profile");
-}
-
 exports.addprofile = function(req, res){
 	
 	var profile = new Profile();

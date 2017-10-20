@@ -47,7 +47,7 @@ router.route("/users").post(usersController.adduser);
 router.route("/profiles").get(profilesController.getprofiles);
 router.route("/profiles").get(profilesController.getprofile);
 router.route("/profiles").post(profilesController.addprofile);
-router.route("/profiles").post(profilesController.updateprofile);
+//router.route("/profiles").post(profilesController.updateprofile);
 //surveys
 router.route("/surveys").get(surveysController.getsurveys);
 router.route("/surveys").get(surveysController.getsurvey);
