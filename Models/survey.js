@@ -78,7 +78,7 @@ var mongoose = require('mongoose');
  		type: String,
  		require: true
  	},
-  	currentycountry: {
+  	currentcountry: {
  		type: String,
  		require: true
  	},
@@ -116,4 +116,4 @@ var mongoose = require('mongoose');
  	},
  });
 
- var Survey = module.exports = mongoose.model('Survey', SurveySchema);
+ var Survey = module.exports = mongoose.model('Survey', Survey);

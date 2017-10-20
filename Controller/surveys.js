@@ -38,13 +38,13 @@ exports.addsurvey = function(req, res){
   	parentsmstatus= req.body.parentsmstatus;
   	children= req.body.children;
   	num_children= req.body.num_children;
-   
-}
+	
 	survey.save(function(err){
 		if(err){
 			res.send(err)
 		}
 		res.send({message:"New survey account created.",data:survey});
 	});
+  
 }
-
+	

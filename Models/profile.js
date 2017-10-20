@@ -108,4 +108,4 @@ var mongoose = require('mongoose');
  	},
  });
 
-var Profile = module.exports = mongoose.model('Profile', ProfileSchema);
+var Profile = module.exports = mongoose.model('Profile', Profile);
